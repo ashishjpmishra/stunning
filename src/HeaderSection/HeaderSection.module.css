@@ -1,0 +1,34 @@
+.Workplace{
+    width:40%;
+}
+
+.Workplace p{
+    font-weight: 500;
+    color: #52514f;
+    line-height: 25px;;
+}
+
+.Header{
+    font-size:70px;
+    margin: 0;
+    padding-bottom: 10%;
+}
+
+.PurpleDot{
+    color: #5243C0;
+}
+
+.ButtonSection{
+    padding: 15px 25px;
+    border-radius: 20px;
+    border:0;
+    background-color: #ffd8db;
+    color: #5243C0;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.SecondButton{
+    margin-top: 20px;
+    background-color:#5243C0 ;
+    color: #fff;
+}

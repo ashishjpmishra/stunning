@@ -1,0 +1,32 @@
+.TopbarWrapper{
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AppLogo{
+    width: 120px;
+}
+
+.MenuItems{
+    padding-bottom: 3px;
+    margin:0 20px;
+    font-weight: 500;
+    color: #B5B4B0;
+}
+
+.MenuItems:hover{
+    border-bottom: 3px solid #5243C0;
+    color: #000;
+}
+
+.ButtonSection{
+    padding: 15px 25px;
+    border-radius: 20px;
+    border:0;
+    background-color: #ffd8db;
+    color: #5243C0;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}

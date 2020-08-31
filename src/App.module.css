@@ -1,0 +1,29 @@
+.LandingSection{
+    height:100vh;
+    margin:2% 6%;
+}
+
+.MainSection{
+    margin:0 auto;
+    width:90%;
+    height: 100vh;
+    display: flex;
+    padding-bottom: 20%;;
+}
+
+
+.CheckboxSection{
+    padding-top: 10%;
+}
+
+
+
+.LandingImage{
+    width:60%;
+}
+
+@media(max-width:560px){
+    .MainSection{
+        flex-direction: column;
+    }
+}
