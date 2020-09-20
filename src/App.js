@@ -16,14 +16,16 @@ function App() {
       <section className={classes.LandingSection}>
         <Topbar />
       <section className={classes.MainSection}>
-        <div>
-          <HeaderSection />
-          <div className={classes.CheckboxSection}>
-            <CheckBox />
+        <div className={classes.UpperSection}>
+          <div>
+            <HeaderSection />
+          </div>
+          <div className={classes.LandingImage}>
+            <img src={LandingImage} alt="landing image" />
           </div>
         </div>
-        <div className={classes.LandingImage}>
-          <img src={LandingImage} alt="landing image" />
+        <div className={classes.CheckboxSection}>
+            <CheckBox />
         </div>
       </section>
       </section>
